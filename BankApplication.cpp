@@ -1,3 +1,4 @@
+// this is the client main class that store the data into the class and load it into file
 #include "BankApplication.h"
 
 void BankApplication::addClient() {
