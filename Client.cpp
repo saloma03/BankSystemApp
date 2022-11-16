@@ -12,7 +12,7 @@ Client::Client(string n, string ad, string ph, string type,BankAccount* ptr)
     accountType = type;
     b = ptr;
 }
-//*****************************************getters for the attributes the Client Class**********************************
+//****************************************getters for the attributes the Client Class**********************************
 string Client::getName() { return name;}
 string Client::getAddress() {return address;}
 string Client::gatPhone() {return phone;}
